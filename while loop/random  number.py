@@ -7,8 +7,8 @@
 '''
 import random  # Import the random module to generate random numbers
 
-# Generate a random number for the computer to guess between 1 and 100 (adjust the range as needed)
-computerNo = random.randint(1, 100)
+# Generate a random number for the computer to guess between 1 and 10 (adjust the range as needed)
+computerNo = random.randint(1, 10)
 
 # Initialize a variable to keep track of the number of attempts
 attempt = 0
