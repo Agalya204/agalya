@@ -27,4 +27,4 @@ for slab_limit, slab_rate in tax_slabs:
         tax += slab_rate * (slab_limit - max(0, slab_limit - 250000))
         taxable_income -= slab_limit - 250000
 
-print("Income Tax: {:.2f}".format(tax))
+print("Tax payable amount is Rs.", tax)
