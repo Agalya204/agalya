@@ -2,7 +2,7 @@
 write a code to calculate income tax in india.
 '''
 salary = float(input("Enter your salary: "))
-deduction = 10000
+deduction = 100000
 taxable_income = salary - deduction
 
 # Define tax slabs and rates as tuples (upper limit, rate)
