@@ -14,7 +14,7 @@ while totalSales < 10000 and totalBagsSold < 10:
     print(f"Red Bags: {redBags}, White Bags: {whiteBags}")
 
     # Ask customer for input
-    color = input("Enter the bag color (red/white): ").strip().lower()
+    color = input("Enter the bag color (red/white): ")
     
     # Check if the selected color is valid
     if color != 'red' and color != 'white':
