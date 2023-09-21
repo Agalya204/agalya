@@ -1,3 +1,10 @@
+'''
+Get two names. If the length of the two names is not equal, add 'a' at the end of the short name
+until the length is equal. 
+Eg - input - cat, arrow. (legnth is not equal) 
+Output - cataa, arrow (length is equal by adding a)
+
+'''
 def make_names_equal(name1, name2):
     len_name1 = len(name1)
     len_name2 = len(name2)
